@@ -26,7 +26,7 @@ app.use("/api/v1/application", applicationRoute);
 
 /* test */
 app.get("/", (req, res) => {
-  res.send("API running 🚀");
+  res.send("Server running ");
 });
 
 /* ---------- DB ---------- */
